@@ -2,6 +2,12 @@
 Changelog for package dynamixel_workbench_toolbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.5 (2025-06-04)
+------------------
+* Remove unused rclcpp dependency
+* Remove ament_target_dependencies (deprecated in ros2 kilted)
+* Contributoers: ijnek
+
 2.2.4 (2025-03-14)
 ------------------
 * Fixed the issue where the Workbench example was not building on SBC by adding the ARM option.
